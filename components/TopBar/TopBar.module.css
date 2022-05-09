@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  z-index: 100; /* It is necessary when using Image from Next */
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 15px;
+  backdrop-filter: blur(5px);
+  background: #ffffffaa;
+  border-bottom: 1px solid #eee;
+}
+
+.title {
+  margin: 0;
+  font-weight: 800;
+  font-size: 21px;
+}
+
+.backButton {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin-right: 15px;
+  cursor: pointer;
+}

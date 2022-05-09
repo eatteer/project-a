@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  padding: 15px;
+  border-bottom: 2px solid #eee;
+}
+
+.container:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+
+.content {
+  padding-left: 8px;
+  width: 100%;
+}
+
+.content p {
+  margin: 0;
+  margin-bottom: 8px;
+  line-height: 1.3125;
+}
+
+.image {
+  object-fit: cover;
+  border-radius: 5px;
+}

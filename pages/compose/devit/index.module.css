@@ -1,0 +1,63 @@
+.form {
+  display: flex;
+}
+
+.avatarContainer {
+  position: relative;
+  width: 49px;
+  height: 49px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.avatar {
+  object-fit: cover;
+  border-radius: 9999px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.textarea {
+  resize: none;
+  flex-grow: 1;
+  margin: 15px;
+  border: 1px solid transparent;
+  min-height: 150px;
+  outline: 0;
+  font-size: 21px;
+}
+
+.dragOver {
+  border: 1px dashed #09f;
+}
+
+.cancelButton {
+  position: absolute;
+  z-index: 1000;
+  top: 15px;
+  right: 15px;
+  width: 29px;
+  height: 29px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+.imageContainer {
+  position: relative;
+  margin: 0 15px;
+}
+
+.image {
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.buttonContainer {
+  margin: 15px;
+}

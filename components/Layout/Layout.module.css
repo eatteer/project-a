@@ -1,0 +1,34 @@
+/* div -> To center main */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* When the width reaches a min width of mobile breakpoint
+the styles below are applied */
+@media (min-width: 640px) {
+  .main {
+    width: 640px;
+    height: 90vh;
+  }
+}
+
+@media (max-width: 640px) {
+  .main {
+    border-radius: 0;
+  }
+}
